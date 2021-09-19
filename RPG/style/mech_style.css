@@ -1,0 +1,58 @@
+.mech .col-3
+{
+	border: solid #bfc799 2px;
+	text-align: center;
+	background-color: #b2bd80;
+}
+
+
+.mech .col-3:hover
+{
+	/*background-color: black;*/
+	text-shadow: 2px 2px grey;
+
+}
+
+.opis
+{
+	position: relative;
+}
+
+#podstawy
+{
+	transition: 1s;
+	position: initial;
+}
+
+#akcje
+{
+	z-index: -1;
+	opacity: 0; 
+	transition: 1s;
+	position: absolute;
+}
+
+#bon_ak
+{
+	z-index: -2;
+	opacity: 0;
+	transition: 1s;
+	position: absolute;
+}
+
+#tura
+{
+	z-index: 3;
+	opacity: 0;
+	transition: 1s;
+	position: absolute;
+}
+
+#tur_en
+{
+	z-index: 4;
+	opacity: 0;
+	transition: 1s;
+	position: absolute;
+}
+

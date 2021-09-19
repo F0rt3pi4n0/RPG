@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+}
+
+/* 
+Paleta kolorów:
+
+- #D4E09B jasny zielony
+
+- #9CB380 ciemny zielony
+
+- #94A89A szary
+
+- #C7AC92 wyblakły kremowy
+
+- #A44A3F czerwony
+
+*/
+
+html
+{
+	background-color: #9CB380;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+}
+
+header
+{
+	padding: 15px;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	background-color: #9CB380;
+	text-shadow: 2px 2px 5px grey;
+}
+	header a
+	{
+		color: white;
+		text-decoration: none;
+	}
+
+.menu
+{
+	background-color: #9CB380;
+}
+
+.menu ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none; 
+}
+
+.menu li
+{
+	padding: 10px;
+	margin: 12px;
+	text-align: center;
+	background-color: #94A89A;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+}
+
+	.menu li:hover
+	{
+		background-color: #758579;
+	}
+
+	.menu a
+	{
+		color: white;
+		text-decoration: none;
+	}
+
+.main
+{
+	background-color: #9CB380;
+}
+
+.right
+{
+	text-align: center;
+	background-color: #9CB380;
+}
+
+	.dodaj
+	{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.wpisz
+	{
+		margin-bottom: 10px;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	.przycisk
+	{
+		color: #ffffff;
+		font-family: 'Oswald', sans-serif;
+		background-color: #94A89A;
+		margin: auto;
+		border: none;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+	}
+		.przycisk:hover
+		{
+			background-color: #758579;
+		}
+
+footer
+{
+	padding: 15px;
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+	background-color: #9CB380;
+	
+}
+	footer h4
+	{
+		text-shadow: 2px 2px 5px grey;
+	}
