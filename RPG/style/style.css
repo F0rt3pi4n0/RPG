@@ -19,7 +19,12 @@ Paleta kolorów:
 
 html
 {
-	background-color: #9CB380;
+	background-color: rgba(156, 179, 128, .8);
+	background-image: url("../pics/background.jpg");
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
 	color: #ffffff;
 	font-family: 'Oswald', sans-serif;
 }
@@ -29,7 +34,7 @@ header
 	padding: 15px;
 	border-radius: 5px 5px 0 0;
 	text-align: center;
-	background-color: #9CB380;
+	
 	text-shadow: 2px 2px 5px grey;
 }
 	header a
@@ -40,8 +45,16 @@ header
 
 .menu
 {
-	background-color: #9CB380;
+	
+
 }
+
+	.menu h2
+	{
+		text-align: center;
+		text-shadow: 2px 2px grey;
+	}
+
 
 .menu ul
 {
@@ -72,13 +85,14 @@ header
 
 .main
 {
-	background-color: #9CB380;
+	text-shadow: 2px 2px grey;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .right
 {
 	text-align: center;
-	background-color: #9CB380;
+	
 }
 
 	.dodaj
@@ -112,7 +126,7 @@ footer
 	padding: 15px;
 	border-radius: 0 0 5px 5px;
 	text-align: center;
-	background-color: #9CB380;
+	
 	
 }
 	footer h4

@@ -119,3 +119,57 @@ function ht_unshow(a)
 		byty.style.opacity = '0';
 	}
 }
+
+
+
+function swtch_shw()
+{
+	sld_l.style.opacity = 1;
+	sld_r.style.opacity = 1;
+}
+
+function swtch_ushw()
+{
+	sld_l.style.opacity = 0;
+	sld_r.style.opacity = 0;
+}
+
+
+var activepic = 0;
+
+function chg_slide(chgs)
+{
+	activepic += chgs;
+	var pics = ["../pics/diceu1.jpg","../pics/diceu2.jpg","../pics/diceu3.jpg"];
+	if (activepic >= pics.length) 
+	{
+		activepic = 0;
+	}
+	else if (activepic < 0) 
+	{
+		activepic = pics.length-1;
+	}
+
+	
+	for (var i = 0; i <= pics.length ; i++)
+	{
+		if (activepic == i) 
+		{
+			if (activepic > pics.length) 
+			{
+				activepic--;
+			}
+			picture.src = pics[i];
+
+
+
+		}
+		
+	}
+
+
+
+}
+
+
+

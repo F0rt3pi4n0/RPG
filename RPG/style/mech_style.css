@@ -16,6 +16,8 @@
 .opis
 {
 	position: relative;
+	text-shadow: 2px 2px 5px black;
+	border-radius: 5px;
 }
 
 #podstawy
