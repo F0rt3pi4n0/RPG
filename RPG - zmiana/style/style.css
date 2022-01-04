@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+}
+
+/*
+Paleta kolorów:
+
+- #D4E09B jasny zielony
+
+- #9CB380 ciemny zielony
+
+- #94A89A szary
+
+- #C7AC92 wyblakły kremowy
+
+- #A44A3F czerwony
+
+*/
+
+html
+{
+	background-color: rgba(156, 179, 128, .8);
+	background-image: url("../pics/background.jpg");
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+}
+
+header
+{
+	padding: 15px;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+
+	text-shadow: 2px 2px 5px grey;
+}
+	header a
+	{
+		color: white;
+		text-decoration: none;
+	}
+
+.menu
+{
+
+
+}
+
+	.menu h2
+	{
+		text-align: center;
+		text-shadow: 2px 2px grey;
+	}
+
+
+.menu ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu li
+{
+	padding: 10px;
+	margin: 12px;
+	text-align: center;
+	background-color: #94A89A;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+}
+
+	.menu li:hover
+	{
+		background-color: #758579;
+	}
+
+	.menu a
+	{
+		color: white;
+		text-decoration: none;
+		display: block;
+	}
+
+.main
+{
+	text-shadow: 2px 2px grey;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.right
+{
+	text-align: center;
+
+}
+
+	.dodaj
+	{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.wpisz
+	{
+		margin-bottom: 10px;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	.przycisk
+	{
+		color: #ffffff;
+		font-family: 'Oswald', sans-serif;
+		background-color: #94A89A;
+		margin: auto;
+		border: none;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+	}
+		.przycisk:hover
+		{
+			background-color: #758579;
+		}
+
+aside img
+{
+	position: relative;
+	max-width: 100%;
+	height: auto;
+}
+
+
+footer
+{
+	padding: 15px;
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+
+
+}
+	footer h4
+	{
+		text-shadow: 2px 2px 5px grey;
+	}

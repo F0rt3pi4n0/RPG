@@ -1,0 +1,43 @@
+.obraz
+{
+	
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	
+}
+
+
+
+
+.slid_l, .slid_r
+{
+	cursor: pointer;
+	color: white;
+	font-size: 30px;
+	top: 50%;
+	position: absolute;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+
+
+.slid_l
+{
+	left: 0;
+}
+
+.slid_r
+{
+	right: 0;
+}
+
+.pic
+{
+	opacity: 1; 
+	transition: 0.5s;
+	
+}
+

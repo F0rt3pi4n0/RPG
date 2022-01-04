@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>eR Pe Gie</title>
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="stylesheet" type="text/css" href="../style/col-style.css">
+	<link rel="stylesheet" type="text/css" href="../style/mech_style.css">
+	<link rel="icon" href="../pics/icon.jpg" type="image/jpg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+	<script src="../script/script.js"></script>
+</head>
+<body onload="zegar()">
+	<header>
+		<h1>
+			<a href="../index.html">
+				Papierowy e<span>R</span> <span>P</span>e <span>G</span>ie
+			</a>
+		</h1>
+	</header>
+
+	<section class="row">
+		<nav class="col-3 menu">
+
+				<h2> Menu </h2>
+				<ul>
+						<li>
+							<a href="./about.html">Czym to jest, o co chodzi?	</a>
+						</li>
+						<li>
+							<a href="./mechaniki.html">Kilka mechanik podczas gry</a>
+						</li>
+						<li>
+							<a href="./dice.html">Jakie kości, do czego?</a>
+						</li>
+						<li>
+							<a href="./figurki.html">Figurki - jak wygląda Twoja postać?</a>
+						</li>
+						<li>
+							<a href="./autor.html">O autorze</a>
+						</li>
+				</ul>
+
+		</nav>
+		<main>
+				<section class="col-6 main">
+					<section>
+						<h2 style="text-align: center; text-shadow: 2px 2px black;"> Mechaniki w grze </h2>
+							<article class="col-12 mech">
+								<section class="col-3 akcja" onmouseover="show(1)" onmouseleave="unshow(1)">
+									Akcja
+								</section>
+								<section class="col-3 bonus_ak" onmouseover="show(2)" onmouseleave="unshow(2)">
+									Bonusowa akcja
+								</section>
+								<section class="col-3 tura" onmouseover="show(3)" onmouseleave="unshow(3)">
+									Tura
+								</section>
+								<section class="col-3 tur_e" onmouseover="show(4)" onmouseleave="unshow(4)">
+									Tura przeciwnika
+								</section>
+							</article>
+					</section>
+					<section class="col-12 opis">
+
+								<article class="col-12" id="podstawy">
+
+										<h2 style="text-align: center;">Podstawy mechanik</h2>
+											<p>
+											Szkieletem, na którym opiera się D&D Next jest mechanika d20: powodzenie czynności określa rzut kostką dwudziestościenną plus modyfikatory vs. określona trudność (np. atak kontra klasa pancerza, albo rzut obronny przeciwko zaklęciu) lub rzut przeciwstawny (choćby umiejętność Skradania się kontra Spostrzegawczość lub Nasłuchiwanie przeciwnika). Postać opisuje sześć głównych współczynników, w tym Siła, Zręczność czy Charyzma, które przekładają się na modyfikatory do rzutów. Przeciętnym wynikiem jest 10-11 punktów (brak modyfikatorów); każde dwa punkty powyżej 10 oznaczają dodatkową premię +1 do testów (+1 dla 12-13, +2 za 14-15 etc.), każde dwa punkty poniżej 11 nakładają modyfikator ujemny (-1 za 8-9, -2 dla 6-7 i tak dalej, aż do -5 przy atrybucie o wartości 1). Te same kategorie mają zastosowanie w przypadku potworów.
+											</p>
+
+								</article>
+								<article class="col-12 common" id="akcje">
+
+										<h2 style="text-align: center;">Akcje w walce</h2>
+											<p>
+											Podczas twojej tury możesz wykonać jako akcję podane niżej przykłady akcji, akcje nadane ci przez twą klasę bądź specjalne zdolności bądź zaimprowizowaną przez siebie akcję. Potwory mają swoje własne akcje podane w swoich statystykach. Kiedy opisujesz swoją zaimprowizowaną akcję, Mistrz Gry mówi Ci czy taka akcja jest możliwa i jeśli musisz wykonać rzut to jaki.</p>
+											<span class="col-2">Atak</span>
+												<span class="col-2">Zaklęcie</span>
+												<span class="col-2">Bieg</span>
+												<span class="col-2">Odstąpienie</span>
+												<span class="col-2">Unik</span>
+												<span class="col-2">Ukrycie</span>
+
+								</article>
+
+									<article class="col-12 common" id="bon_ak">
+										<p>
+											<h2 style="text-align: center;">Bonusowa akcje</h2>
+											<p>Różne zdolności klasowe, zaklęcia lub inne umiejętności pozwalają ci wykonać dodatkową akcję podczas swojej tury zwaną akcją bonusową. Przykładowo zdolność  Sprytna Akcja pozwala łotrzykowi używać akcji bonusowej. Możesz użyć tej akcji tylko gdy pozwala ci na to specjalna umiejętność bądź zaklęcie, inaczej po prostu nie masz czego podczas niej wykonać.</p>
+											<p>Możesz wykonać jedną akcję bonusową na turę, jeśli posiadasz ich kilka musisz wybrać którą z nich chcesz użyć.</p>
+											<p>Sam ustalasz kiedy w  czasie tury wykonujesz bonusową akcję, chyba że zdolność która ci pozwala jej użyć ma specjalne wymagania. Wszystko co zabrania ci wykonywać akcji, zabrania również wykonywania bonusowej akcji.</p>
+										</p>
+									</article>
+
+
+									<article class="col-12 common" id="tura">
+										<p>
+											<h2 style="text-align: center;">Tura</h2>
+											<p>Podczas twojej tury, możesz ruszyć się o dystans określony twoją szybkością oraz wykonać jedną akcję. Ty decydujesz porządek w którym ruszasz się i wykonujesz akcję. Twoja szybkość ruchu, nazywana również szybkością chodu, jest zanotowana na twojej karcie postaci.</p>
+											<p>Najczęstsze akcje które możesz wykonać są opisane w dziale "Akcje w Walce". Wiele klasowych zdolności i inne różnorakie umiejętności dodają opcji które możesz wykorzystać.</p>
+											<p>Sekcja "Ruch i Pozycj"a opowiada o zasadach dotyczących twojego ruchu.</p>
+											<p>Możesz pominąć ruch, używanie akcji lub robienia czegokolwiek podczas swojej tury. Jeśli nie możesz się zdecydować co chcesz zrobić podczas swojej tury, przemyśl użycie Uniku bądź Przygotowania, które są opisane w dziale "Akcje w Walce".</p>
+										</p>
+									</article>
+
+
+									<article class="col-12 common" id="tur_en">
+										<p>
+											<h2 style="text-align: center;">Tura przeciwnika</h2>
+											<p>Podczas tury przeciwnika, może on robić w zasadzie to samo co gracz. Oczywiście ograniczają go, lub ich własne zdolności. O ich wykorzystaniu i samym poruszaniu się przeciwnikami decyduje Mistrz Gry. W tej turze on ustala gdzie potwór podejdzie, kogo zaatakuje lub jakiej właśnie zdolności zamierza użyć.</p>
+											<p>Turą przeciwnika nie musi być ruch konkretnej istoty, ale może być to np. powolne osuwanie się ziemi, mechanizm zamykający drzwi w określonej liczbie tur lub magiczna pułapka namierzająca swoją ofiarę</p>
+										</p>
+									</article>
+
+
+						</section>
+				</section>
+		</main>
+		<aside class="col-3 right">
+
+				<h2>
+					Autor postanowił być wszędzie
+				</h2>
+				<img src="../pics/toja.jpg" alt="narcyz">
+
+		</aside>
+	</section>
+
+	<footer id="time"></footer>
+
+
+</body>
+</html>

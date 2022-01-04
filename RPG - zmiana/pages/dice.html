@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>eR Pe Gie</title>
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="stylesheet" type="text/css" href="../style/col-style.css">
+	<link rel="stylesheet" type="text/css" href="../style/dice_style.css">
+	<link rel="icon" href="../pics/icon.jpg" type="image/jpg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+	<script src="../script/script.js"></script>
+</head>
+<body onload="zegar()">
+	<header>
+		<h1>
+			<a href="../index.html">
+				Papierowy e<span>R</span> <span>P</span>e <span>G</span>ie
+			</a>
+		</h1>
+	</header>
+
+	<section class="row">
+		<nav class="col-3 menu">
+
+				<h2> Menu </h2>
+				<ul>
+						<li>
+							<a href="./about.html">Czym to jest, o co chodzi?	</a>
+						</li>
+						<li>
+							<a href="./mechaniki.html">Kilka mechanik podczas gry</a>
+						</li>
+						<li>
+							<a href="./dice.html">Jakie kości, do czego?</a>
+						</li>
+						<li>
+							<a href="./figurki.html">Figurki - jak wygląda Twoja postać?</a>
+						</li>
+						<li>
+							<a href="./autor.html">O autorze</a>
+						</li>
+				</ul>
+		</nav>
+
+		<main>
+
+				<section class="col-6 main">
+					<h2 style="text-align: center; text-shadow: 2px 2px black;">Każdy lubi zestawy własnych kości!</h2>
+
+					<article class="col-12 obraz" onmouseover="swtch_shw()" onmouseleave="swtch_ushw()">
+
+						<a class="slid_l" id="sld_l" onclick="chg_slide(-1)"><</a>
+
+						<img class="pic" id="picture" src="../pics/diceu1.jpg" style="width: 500px; height: 500px;" alt="pictures_here">
+
+						<a class="slid_r" id="sld_r" onclick="chg_slide(1)">></a>
+					</article>
+				</section>
+
+		</main>
+
+		<aside class="col-3 right">
+
+				<h2>
+					Autor postanowił być wszędzie
+				</h2>
+				<img src="../pics/toja.jpg" alt="narcyz">
+
+		</aside>
+
+	</section>
+
+	<footer id="time"></footer>
+
+
+</body>
+</html>
